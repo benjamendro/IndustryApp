@@ -1,0 +1,3440 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7779925,
+          33.2007627
+        ]
+      },
+      "properties": {
+        "id": "IND-1048",
+        "name": "רביע מיץ הגולן בע\"מ",
+        "registry": "רשם החברות",
+        "years": 8,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "ת\"ד 2315, בוקעאתא מיקוד:1243700",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "בוקעאתא",
+        "authority": "בוקעאתא",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור משקאות",
+        "foodGroup": "משקאות",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: משקאות, למעט מוצרי חלב",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4458868,
+          33.0243771
+        ]
+      },
+      "properties": {
+        "id": "IND-1053",
+        "name": "שאם מאכלים אותנטיים בע\"מ",
+        "registry": "רשם החברות",
+        "years": 3,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "89 כביש ראשי ג'ש (גוש חלב) מיקוד:13872",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "ג'יש",
+        "authority": "ג'ש (גוש חלב)",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "בשר ועופות",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: מוצרי בשר, עופות וצייד מעובדים ללא טיפול חום, קצוצים",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.766737,
+          32.8246411
+        ]
+      },
+      "properties": {
+        "id": "IND-1029",
+        "name": "מיטב פרי הרמה (1995) בע\"מ",
+        "registry": "רשם החברות",
+        "years": 31,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "אבני איתן מיקוד:1292500",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "אבני איתן",
+        "authority": "גולן",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "שמנים ושומנים",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: שומנים ושמנים ותחליבי שומן",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7483178,
+          33.1943768
+        ]
+      },
+      "properties": {
+        "id": "IND-1013",
+        "name": "יקב הר אודם בע\"מ",
+        "registry": "רשם החברות",
+        "years": 28,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "אודם מיקוד:1247300",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "אודם",
+        "authority": "גולן",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור משקאות",
+        "foodGroup": "משקאות",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: יינות ענבים משקאות, למעט מוצרי חלב",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7341774,
+          32.8046942
+        ]
+      },
+      "properties": {
+        "id": "IND-1009",
+        "name": "הרי גולן ארץ זית ושמן בע\"מ",
+        "registry": "רשם החברות",
+        "years": 25,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "אלי-עד מיקוד:1292700",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "אלי עד",
+        "authority": "גולן",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "שמנים ושומנים",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: שומנים ושמנים שביסודם חופשיים ממים",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7341774,
+          32.8046942
+        ]
+      },
+      "properties": {
+        "id": "IND-1018",
+        "name": "יקב שאטו גולן בע\"מ",
+        "registry": "",
+        "years": null,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "אלי-עד מיקוד:1292700",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "אלי עד",
+        "authority": "גולן",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור משקאות",
+        "foodGroup": "יין ואלכוהול; משקאות",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: משקאות כוהליים, כולל מוצרים מקבילים ללא כוהל ודלי כוהל",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6902178,
+          32.7984182
+        ]
+      },
+      "properties": {
+        "id": "IND-1004",
+        "name": "בית אל מזון בע\"מ",
+        "registry": "רשם החברות",
+        "years": 22,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "אזור תעשיה, בני יהודה מיקוד:1294401",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "בני יהודה",
+        "authority": "גולן",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "שוקולד וממתקים; פירות וירקות; תבלינים ורטבים; דבש; שמנים ושומנים",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: ריבות, מרמלדות, קרישים, קונפיטורות, פובידל (כולל מעדן פרי מב",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6897704,
+          32.7966456
+        ]
+      },
+      "properties": {
+        "id": "IND-1006",
+        "name": "גניר (1992) בע\"מ",
+        "registry": "רשם החברות",
+        "years": 34,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "גת (קיבוץ) 1 מחסן פגש - א. תעשיה פגש גת גת (קיבוץ) מיקוד:7956500",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "בני יהודה",
+        "authority": "גולן",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור משקאות",
+        "foodGroup": "משקאות",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: משקאות, למעט מוצרי חלב",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7154432,
+          32.8023671
+        ]
+      },
+      "properties": {
+        "id": "IND-0105",
+        "name": "מכוורת עמק חפר",
+        "registry": "רשם החברות",
+        "years": 19,
+        "identificationSource": "התאמת שם",
+        "address": "בני יהודה",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "בני יהודה",
+        "authority": "גולן",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "",
+        "website": "",
+        "description": "קוים אוטומטיים, מזון",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6902178,
+          32.7984182
+        ]
+      },
+      "properties": {
+        "id": "IND-1030",
+        "name": "מנדל טי.אם.סחר ושיווק בע\"מ",
+        "registry": "רשם החברות",
+        "years": 24,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "ת\"ד 3417, בני יהודה מיקוד:1294400",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "בני יהודה",
+        "authority": "גולן",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "דגנים וקרקרים",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: דגני בוקר, גרנולה, פתיתי שיבולת שועל להכנה מהירה",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6897704,
+          32.7966456
+        ]
+      },
+      "properties": {
+        "id": "IND-1049",
+        "name": "רוז אנ.אר.ג'י. בע\"מ",
+        "registry": "רשם החברות",
+        "years": 11,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "קיבוץ גונן מיקוד:1213000",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "בני יהודה",
+        "authority": "גולן",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "",
+        "website": "",
+        "description": "מחזיק רישיון ייצור מזון של משרד הבריאות ללא קבוצת מוצר מוצהרת",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6902178,
+          32.7984182
+        ]
+      },
+      "properties": {
+        "id": "IND-1050",
+        "name": "רונן לביא אחזקות בע\"מ",
+        "registry": "רשם החברות",
+        "years": 13,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "בית רפאל, איזור תעשייה בני יהודה מיקוד:1294400",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "בני יהודה",
+        "authority": "גולן",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "לחם ומאפה",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: לחם ומוצרי מאפה רגילים, מוצרי מאפה מיוחדים אחרים כגון עוגות,",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6902178,
+          32.7984182
+        ]
+      },
+      "properties": {
+        "id": "IND-1054",
+        "name": "שמן זית אלי-עד בע\"מ",
+        "registry": "רשם החברות",
+        "years": 18,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "ת\"ד 382, בני יהודה מיקוד:1294401",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "בני יהודה",
+        "authority": "גולן",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "שמנים ושומנים",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: שומנים ושמנים שביסודם חופשיים ממים",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6647576,
+          32.7622206
+        ]
+      },
+      "properties": {
+        "id": "IND-0025",
+        "name": "אקווסטיה",
+        "registry": "רשם החברות",
+        "years": 20,
+        "identificationSource": "התאמת שם",
+        "address": "כפר חרוב",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "כפר חרוב",
+        "authority": "גולן",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ענפי ייצור אחרים",
+        "foodGroup": "",
+        "website": "",
+        "description": "מובילה עולמית באספקת פתרונות מיטביים להגנה מפני נזקי הלם, הפחתת הפסדי מים ובקרת לחצים, באמצעות שילוב מוצרים בתכנון ובפיתוח ייחודי, ופתרונו",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6552166,
+          32.7347113
+        ]
+      },
+      "properties": {
+        "id": "IND-0110",
+        "name": "מפל",
+        "registry": "רשם האגודות השיתופיות",
+        "years": 24,
+        "identificationSource": "התאמת שם",
+        "address": "מבוא חמה",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "מבוא חמה",
+        "authority": "גולן",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור מוצרי גומי ופלסטיק",
+        "foodGroup": "",
+        "website": "",
+        "description": "לוחות פוליפרופילן וחקלאות",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6841723,
+          32.8905368
+        ]
+      },
+      "properties": {
+        "id": "IND-1021",
+        "name": "מ. ש. גמלא בשרים בעמ",
+        "registry": "רשם החברות",
+        "years": 8,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "מעלה גמלא מעלה גמלא",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "מעלה גמלא",
+        "authority": "גולן",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "בשר ועופות",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: בשר, עופות וצייד טריים",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7762435,
+          33.1302761
+        ]
+      },
+      "properties": {
+        "id": "IND-0033",
+        "name": "בנטל",
+        "registry": "רשם החברות",
+        "years": 32,
+        "identificationSource": "מיפוי ידני",
+        "address": "מרום גולן",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "מרום גולן",
+        "authority": "גולן",
+        "addressSource": "",
+        "activityBranch": "ייצור ציוד חשמלי",
+        "foodGroup": "",
+        "website": "",
+        "description": "מנועים חשמליים",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7773194,
+          33.1321219
+        ]
+      },
+      "properties": {
+        "id": "IND-1008",
+        "name": "הקואופ הצפוני לייצור יין",
+        "registry": "שותפויות",
+        "years": 4,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "קיבוץ מרום גולן מיקוד:1243600",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "מרום גולן",
+        "authority": "גולן",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור משקאות",
+        "foodGroup": "משקאות",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: משקאות, למעט מוצרי חלב",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7962004,
+          33.0962849
+        ]
+      },
+      "properties": {
+        "id": "IND-1007",
+        "name": "דה קרינה תעשיות מזון בע\"מ",
+        "registry": "רשם החברות",
+        "years": 19,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "ד.נ. רמת הגולן עין זיוון מיקוד:1242600",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "עין זיוון",
+        "authority": "גולן",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור משקאות",
+        "foodGroup": "יין ואלכוהול; שוקולד וממתקים",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: שוקולד, ליקר",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7962004,
+          33.0962849
+        ]
+      },
+      "properties": {
+        "id": "IND-1014",
+        "name": "יקב מטר בע\"מ",
+        "registry": "רשם החברות",
+        "years": 11,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "עין זיוון מיקוד:1242600",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "עין זיוון",
+        "authority": "גולן",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור משקאות",
+        "foodGroup": "",
+        "website": "",
+        "description": "מחזיק רישיון ייצור מזון של משרד הבריאות ללא קבוצת מוצר מוצהרת",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7962004,
+          33.0962849
+        ]
+      },
+      "properties": {
+        "id": "IND-1015",
+        "name": "יקב פלטר בע\"מ",
+        "registry": "רשם החברות",
+        "years": 22,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "עין זיוון מיקוד:1242600",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "עין זיוון",
+        "authority": "גולן",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור משקאות",
+        "foodGroup": "יין ואלכוהול; משקאות",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: משקאות כוהליים מזוקקים המכילים יותר מ-15% כוהל, יין",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6970327,
+          33.0297394
+        ]
+      },
+      "properties": {
+        "id": "IND-1012",
+        "name": "יקב בזלת הגולן 1999 בע\"מ",
+        "registry": "רשם החברות",
+        "years": 27,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "ת\"ד 77, קדמת צבי מיקוד:124251",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "קדמת צבי",
+        "authority": "גולן",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור משקאות",
+        "foodGroup": "",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: יינות\" (אחרים מענבים)",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6910562,
+          33.1327227
+        ]
+      },
+      "properties": {
+        "id": "IND-1059",
+        "name": "המזקקה במצוק עורבים בע\"מ",
+        "registry": "רשם החברות",
+        "years": 7,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "מצוק עורבים אזור תעשייה קלע ברוכים, קלע מיקוד:1242200",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "קלע",
+        "authority": "גולן",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור משקאות",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6635699,
+          32.8479349
+        ]
+      },
+      "properties": {
+        "id": "IND-1031",
+        "name": "מצוף הארץ בע\"מ",
+        "registry": "רשם החברות",
+        "years": 22,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "רחוב סער, רמות מיקוד:1294800",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "רמות",
+        "authority": "גולן",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "דבש",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: דבש",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.43564,
+          33.0591557
+        ]
+      },
+      "properties": {
+        "id": "IND-0017",
+        "name": "אלכם מדיקל אגודה שיתופית חקלאית בע\"מ",
+        "registry": "רשם האגודות השיתופיות",
+        "years": 25,
+        "identificationSource": "התאמת שם",
+        "address": "ברעם",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "ברעם",
+        "authority": "הגליל העליון",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ענפי ייצור אחרים",
+        "foodGroup": "",
+        "website": "https://elcam-medical.com",
+        "description": "בעלות קיבוץ ברעם, 50 עובדי פיתוח והנדסה והשאר ייצור. חדרים נקיים, דלתון וברעם",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6165618,
+          33.0181292
+        ]
+      },
+      "properties": {
+        "id": "IND-0152",
+        "name": "פלסגד מוצרים פלסטיים אגש\"ח בע\"מ",
+        "registry": "רשם האגודות השיתופיות",
+        "years": 25,
+        "identificationSource": "התאמת שם",
+        "address": "גדות",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "גדות",
+        "authority": "הגליל העליון",
+        "addressSource": "",
+        "activityBranch": "ייצור מוצרי גומי ופלסטיק",
+        "foodGroup": "",
+        "website": "https://www.plasgad.com/",
+        "description": "אריזות פלסטיק",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6533033,
+          33.2374651
+        ]
+      },
+      "properties": {
+        "id": "IND-0022",
+        "name": "אנאפורנה פיטנס סוקס בע\"מ",
+        "registry": "רשם החברות",
+        "years": 15,
+        "identificationSource": "התאמת שם",
+        "address": "דן",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "דן",
+        "authority": "הגליל העליון",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור טקסטיל",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6532173,
+          33.2382665
+        ]
+      },
+      "properties": {
+        "id": "IND-0052",
+        "name": "דן פל",
+        "registry": "רשם האגודות השיתופיות",
+        "years": 19,
+        "identificationSource": "התאמת שם",
+        "address": "דן",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "דן",
+        "authority": "הגליל העליון",
+        "addressSource": "",
+        "activityBranch": "ייצור מוצרי גומי ופלסטיק",
+        "foodGroup": "",
+        "website": "https://danpal.co.il",
+        "description": "אקסטרוזיה-פלסטיקה",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6392666,
+          33.2303742
+        ]
+      },
+      "properties": {
+        "id": "IND-1027",
+        "name": "מוזיאון השוקולד של שולמן בע\"מ",
+        "registry": "רשם החברות",
+        "years": 14,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "דפנה מיקוד:1223500",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "דפנה",
+        "authority": "הגליל העליון",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "שוקולד וממתקים",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: שוקולד",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6392666,
+          33.2303742
+        ]
+      },
+      "properties": {
+        "id": "IND-1039",
+        "name": "עוגיות מזל מסר (מילניום) בע\"מ",
+        "registry": "רשם החברות",
+        "years": 27,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "בית ראשון במולדת  ת\"ד 251, דפנה מיקוד:10200",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "דפנה",
+        "authority": "הגליל העליון",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "לחם ומאפה",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: מוצרי מאפה רגילים אחרים",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.622822,
+          33.2215917
+        ]
+      },
+      "properties": {
+        "id": "IND-0073",
+        "name": "טל כוכב פלסט בע\"מ",
+        "registry": "רשם החברות",
+        "years": 18,
+        "identificationSource": "התאמת שם",
+        "address": "הגושרים",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "הגושרים",
+        "authority": "הגליל העליון",
+        "addressSource": "",
+        "activityBranch": "ייצור מוצרי גומי ופלסטיק",
+        "foodGroup": "",
+        "website": "http://www.talkochavplast.co.il/",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5519506,
+          33.1286162
+        ]
+      },
+      "properties": {
+        "id": "IND-1035",
+        "name": "משק שוורץ בע\"מ",
+        "registry": "רשם החברות",
+        "years": 16,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "יפתח מיקוד:1384000",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "יפתח",
+        "authority": "הגליל העליון",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "חלב ומוצריו",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: מוצרי חלב ומקביליהם, למעט מוצרים מסוג 02.0",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5517688,
+          33.1250862
+        ]
+      },
+      "properties": {
+        "id": "IND-0123",
+        "name": "נטפים",
+        "registry": "רשם החברות",
+        "years": 20,
+        "identificationSource": "התאמת שם",
+        "address": "יפתח",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "יפתח",
+        "authority": "הגליל העליון",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור מוצרי מתכת בהרכבה, פרט למכונות ולציוד",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4485597,
+          33.0782811
+        ]
+      },
+      "properties": {
+        "id": "IND-0083",
+        "name": "יקב הרי הגליל אחזקות - אגודה שיתופית חקלאית בע\"מ",
+        "registry": "רשם האגודות השיתופיות",
+        "years": 16,
+        "identificationSource": "התאמת שם",
+        "address": "יראון",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "יראון",
+        "authority": "הגליל העליון",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור משקאות",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4530911,
+          33.0756973
+        ]
+      },
+      "properties": {
+        "id": "IND-0119",
+        "name": "נגריית רהיטי יראון אגודה שיתופית חקלאית בע\"מ",
+        "registry": "רשם האגודות השיתופיות",
+        "years": 24,
+        "identificationSource": "התאמת שם",
+        "address": "יראון",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "יראון",
+        "authority": "הגליל העליון",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור רהיטים",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4543226,
+          33.0771583
+        ]
+      },
+      "properties": {
+        "id": "IND-0157",
+        "name": "פסקל רוכסנים אגודה שיתופית חקלאית בע\"מ",
+        "registry": "רשם האגודות השיתופיות",
+        "years": 24,
+        "identificationSource": "התאמת שם",
+        "address": "יראון",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "יראון",
+        "authority": "הגליל העליון",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור מוצרי גומי ופלסטיק",
+        "foodGroup": "",
+        "website": "http://paskal.biz",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6079105,
+          33.1725195
+        ]
+      },
+      "properties": {
+        "id": "IND-0045",
+        "name": "גלקון בקרים אגודה שיתופית חקלאית בע\"מ",
+        "registry": "רשם האגודות השיתופיות",
+        "years": 19,
+        "identificationSource": "התאמת שם",
+        "address": "כפר בלום",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "כפר בלום",
+        "authority": "הגליל העליון",
+        "addressSource": "",
+        "activityBranch": "ייצור ציוד חשמלי",
+        "foodGroup": "",
+        "website": "http://galcon.co.il",
+        "description": "עשיה ותיקה גינון, מוצרים משולבי תוכנה; בקרה וניהול השקיה, דישון ואקלים בחממות. | בקרים ממוחשבים. חברת גלקון, מובילה עולמית בייצור מערכות ובקר",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.574964,
+          33.241787
+        ]
+      },
+      "properties": {
+        "id": "IND-1036",
+        "name": "נאנוש בע\"מ",
+        "registry": "רשם החברות",
+        "years": 7,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "ת\"ד 386, כפר גלעדי מיקוד:1221000",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "כפר גלעדי",
+        "authority": "הגליל העליון",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "",
+        "website": "",
+        "description": "מחזיק רישיון ייצור מזון של משרד הבריאות ללא קבוצת מוצר מוצהרת",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6005228,
+          32.9750739
+        ]
+      },
+      "properties": {
+        "id": "IND-0058",
+        "name": "הבונים",
+        "registry": "",
+        "years": null,
+        "identificationSource": "",
+        "address": "כפר הנשיא",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "כפר הנשיא",
+        "authority": "הגליל העליון",
+        "addressSource": "",
+        "activityBranch": "ייצור מכונות וציוד לנמ\"א",
+        "foodGroup": "",
+        "website": "",
+        "description": "הרכבות אלקטרו מכאניות",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6038316,
+          32.9748902
+        ]
+      },
+      "properties": {
+        "id": "IND-1019",
+        "name": "ל.ב.זוהר סחר ושווק בע\"מ",
+        "registry": "",
+        "years": null,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "ת\"ד 271, כפר הנשיא מיקוד:1230500",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "כפר הנשיא",
+        "authority": "הגליל העליון",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "דגנים וקרקרים",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: קרקרים",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6556358,
+          33.1937404
+        ]
+      },
+      "properties": {
+        "id": "IND-0090",
+        "name": "לורדן אגודה שיתופית חקלאית בע\"מ",
+        "registry": "רשם האגודות השיתופיות",
+        "years": 25,
+        "identificationSource": "התאמת שם",
+        "address": "כפר סאלד",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "כפר סאלד",
+        "authority": "הגליל העליון",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור מכונות וציוד לנמ\"א",
+        "foodGroup": "",
+        "website": "https://www.lordan-coils.com/",
+        "description": "fin and tube heat exchangers for the global HVAC&R market",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6467611,
+          33.1406458
+        ]
+      },
+      "properties": {
+        "id": "IND-0062",
+        "name": "וור-סטיל מערכות זיקוק בע''מ",
+        "registry": "רשם החברות",
+        "years": 9,
+        "identificationSource": "התאמת שם",
+        "address": "להבות הבשן",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "להבות הבשן",
+        "authority": "הגליל העליון",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור משקאות",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6456125,
+          33.1410646
+        ]
+      },
+      "properties": {
+        "id": "IND-0089",
+        "name": "להבות יצור ומיגון (1995) בע\"מ",
+        "registry": "רשם החברות",
+        "years": 30,
+        "identificationSource": "מיפוי ידני",
+        "address": "להבות הבשן",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "להבות הבשן",
+        "authority": "הגליל העליון",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור מכונות וציוד לנמ\"א",
+        "foodGroup": "",
+        "website": "https://he.lehavot.com/",
+        "description": "להבות היצרנית הוותיקה והמובילה בישראל של ציוד ומערכות לגילוי, כיבוי ומיגון אש",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5713424,
+          32.9909999
+        ]
+      },
+      "properties": {
+        "id": "IND-0051",
+        "name": "דיוק הדראוליקה אגודה חקלאית שיתופית בע\"מ",
+        "registry": "רשם האגודות השיתופיות",
+        "years": 25,
+        "identificationSource": "מיפוי ידני",
+        "address": "מחניים",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "מחניים",
+        "authority": "הגליל העליון",
+        "addressSource": "",
+        "activityBranch": "ייצור כלי רכב מנועיים ונגררים",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5117018,
+          33.0992513
+        ]
+      },
+      "properties": {
+        "id": "IND-1052",
+        "name": "ש.א. אור ייצור ושיווק גבינות בע\"מ",
+        "registry": "רשם החברות",
+        "years": 10,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "ד.נ. מרום הגולן מלכיה מיקוד:1384500",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "מלכיה",
+        "authority": "הגליל העליון",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "חלב ומוצריו",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: מוצרי חלב ומקביליהם, למעט מוצרים מסוג 02.0",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6088672,
+          33.2398567
+        ]
+      },
+      "properties": {
+        "id": "IND-1040",
+        "name": "עוזמן בע\"מ",
+        "registry": "רשם החברות",
+        "years": 8,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "מעין ברוך אזור קריית שמונה מעין ברוך",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "מעין ברוך",
+        "authority": "הגליל העליון",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "",
+        "website": "",
+        "description": "מחזיק רישיון ייצור מזון של משרד הבריאות ללא קבוצת מוצר מוצהרת",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5986503,
+          33.1594167
+        ]
+      },
+      "properties": {
+        "id": "IND-0125",
+        "name": "נעלי נאות (2020) בע\"מ",
+        "registry": "רשם החברות",
+        "years": 5,
+        "identificationSource": "התאמת שם",
+        "address": "נאות מרדכי",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "נאות מרדכי",
+        "authority": "הגליל העליון",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור ועיבוד של מוצרי עור ושל אביזרים נלווים",
+        "foodGroup": "",
+        "website": "https://naotfootwear.com",
+        "description": "ייצור ומכירת נעליים",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3987672,
+          33.028227
+        ]
+      },
+      "properties": {
+        "id": "IND-0154",
+        "name": "פלסן סאסא בע\"מ",
+        "registry": "רשם החברות",
+        "years": 20,
+        "identificationSource": "התאמת שם",
+        "address": "סאסא",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "סאסא",
+        "authority": "הגליל העליון",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור מוצרי מתכת בהרכבה, פרט למכונות ולציוד",
+        "foodGroup": "",
+        "website": "http://plasan.com",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5418054,
+          32.9279488
+        ]
+      },
+      "properties": {
+        "id": "IND-0144",
+        "name": "עמיעד",
+        "registry": "",
+        "years": null,
+        "identificationSource": "",
+        "address": "עמיעד",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "עמיעד",
+        "authority": "הגליל העליון",
+        "addressSource": "",
+        "activityBranch": "ייצור כימיקלים ומוצריהם",
+        "foodGroup": "",
+        "website": "",
+        "description": "מפעל עונתי",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6235149,
+          33.178158
+        ]
+      },
+      "properties": {
+        "id": "IND-0040",
+        "name": "גלידת אילו",
+        "registry": "",
+        "years": null,
+        "identificationSource": "",
+        "address": "עמיר",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "עמיר",
+        "authority": "הגליל העליון",
+        "addressSource": "",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "",
+        "website": "",
+        "description": "מזון",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6207998,
+          33.1784766
+        ]
+      },
+      "properties": {
+        "id": "IND-0050",
+        "name": "די.פי.אל תעשיות מוצרים חד פעמים בע\"מ - קיבוץ עמיר",
+        "registry": "",
+        "years": null,
+        "identificationSource": "",
+        "address": "עמיר",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "עמיר",
+        "authority": "הגליל העליון",
+        "addressSource": "",
+        "activityBranch": "ייצור מוצרי גומי ופלסטיק",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6218004,
+          33.1849719
+        ]
+      },
+      "properties": {
+        "id": "IND-0067",
+        "name": "חוליות זרימה אגודה שיתופית חקלאית בע\"מ",
+        "registry": "רשם האגודות השיתופיות",
+        "years": 25,
+        "identificationSource": "התאמת שם",
+        "address": "שדה נחמיה",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "שדה נחמיה",
+        "authority": "הגליל העליון",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור מוצרי גומי ופלסטיק",
+        "foodGroup": "",
+        "website": "",
+        "description": "פלסטיק",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6245107,
+          33.1869088
+        ]
+      },
+      "properties": {
+        "id": "IND-1047",
+        "name": "ראגמ בוטיק גלילי בע\"מ",
+        "registry": "רשם החברות",
+        "years": 5,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "מבנה ליד חדר האוכל שדה נחמיה מיקוד:1214500",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "שדה נחמיה",
+        "authority": "הגליל העליון",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "קפואים / קרח",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: קרחונים אכילים, כולל שרבט וסורבט",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6597602,
+          33.1631728
+        ]
+      },
+      "properties": {
+        "id": "IND-0023",
+        "name": "אס.פי.או - אופטיקה מדויקת חכמה בע\"מ",
+        "registry": "רשם החברות",
+        "years": 7,
+        "identificationSource": "התאמת שם",
+        "address": "שמיר",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "שמיר",
+        "authority": "הגליל העליון",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור מחשבים, מכשור אלקטרוני ואופטי",
+        "foodGroup": "",
+        "website": "",
+        "description": "ייצור ומכירת רכיבים אופטיים",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6591754,
+          33.1638897
+        ]
+      },
+      "properties": {
+        "id": "IND-1033",
+        "name": "מרעה גולן אגש\"ח",
+        "registry": "אגודות שיתופיות",
+        "years": 9,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "שמיר שמיר",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "שמיר",
+        "authority": "הגליל העליון",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "",
+        "website": "",
+        "description": "מחזיק רישיון ייצור מזון של משרד הבריאות ללא קבוצת מוצר מוצהרת",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6593825,
+          33.1620994
+        ]
+      },
+      "properties": {
+        "id": "IND-0136",
+        "name": "ספנטק",
+        "registry": "",
+        "years": null,
+        "identificationSource": "",
+        "address": "שמיר",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "שמיר",
+        "authority": "הגליל העליון",
+        "addressSource": "",
+        "activityBranch": "ייצור טקסטיל",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6599498,
+          33.1667618
+        ]
+      },
+      "properties": {
+        "id": "IND-0175",
+        "name": "שלא\"ג תעשיות בע\"מ",
+        "registry": "רשם החברות",
+        "years": 21,
+        "identificationSource": "התאמת שם",
+        "address": "שמיר",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "שמיר",
+        "authority": "הגליל העליון",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור טקסטיל",
+        "foodGroup": "",
+        "website": "http://shalag.co.il",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6615367,
+          33.1603894
+        ]
+      },
+      "properties": {
+        "id": "IND-0176",
+        "name": "שמיר תעשיית אופטיקה בע\"מ",
+        "registry": "רשם החברות",
+        "years": 20,
+        "identificationSource": "מיפוי ידני",
+        "address": "שמיר",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "שמיר",
+        "authority": "הגליל העליון",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור מחשבים, מכשור אלקטרוני ואופטי",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6783391,
+          33.2380977
+        ]
+      },
+      "properties": {
+        "id": "IND-0177",
+        "name": "שניר תעשיות נייר (1995) בע\"מ",
+        "registry": "רשם החברות",
+        "years": 30,
+        "identificationSource": "התאמת שם",
+        "address": "שניר",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "שניר",
+        "authority": "הגליל העליון",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור נייר ומוצריו",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5831939,
+          33.2357744
+        ]
+      },
+      "properties": {
+        "id": "IND-0016",
+        "name": "אלביט",
+        "registry": "רשם החברות",
+        "years": 59,
+        "identificationSource": "התאמת שם",
+        "address": "אזור תעשייה תל חי",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "תל חי",
+        "authority": "הגליל העליון",
+        "addressSource": "מיפוי ידני",
+        "activityBranch": "מידע, תקשורת ותוכנה (הייטק)",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5780372,
+          33.2337164
+        ]
+      },
+      "properties": {
+        "id": "IND-1038",
+        "name": "נוברסיס בע\"מ",
+        "registry": "רשם החברות",
+        "years": 7,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "אזור תעשייה תל חי",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "תל חי",
+        "authority": "הגליל העליון",
+        "addressSource": "מיפוי ידני",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "",
+        "website": "",
+        "description": "מחזיק רישיון ייצור מזון של משרד הבריאות ללא קבוצת מוצר מוצהרת",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5433303,
+          32.9791724
+        ]
+      },
+      "properties": {
+        "id": "IND-1003",
+        "name": "ביכורים מזון ומאפה בע\"מ",
+        "registry": "רשם החברות",
+        "years": 17,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "החרש 7  חצור הגלילית",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "חצור הגלילית",
+        "authority": "חצור הגלילית",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "",
+        "website": "",
+        "description": "מחזיק רישיון ייצור מזון של משרד הבריאות ללא קבוצת מוצר מוצהרת",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5432443,
+          32.981248
+        ]
+      },
+      "properties": {
+        "id": "IND-1023",
+        "name": "מאפיית עדן הגליל בע\"מ",
+        "registry": "רשם החברות",
+        "years": 21,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "בן גוריון 30  חצור הגלילית מיקוד:1031000",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "חצור הגלילית",
+        "authority": "חצור הגלילית",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "לחם ומאפה",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: לחם ומוצרי מאפה רגילים",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5511383,
+          32.9822597
+        ]
+      },
+      "properties": {
+        "id": "IND-1042",
+        "name": "פרי הגליל (תעשיות) בע\"מ",
+        "registry": "רשם החברות",
+        "years": 17,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "אזור התעשייה   חצור הגלילית מיקוד:10300",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "חצור הגלילית",
+        "authority": "חצור הגלילית",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "חלב ומוצריו; תבלינים ורטבים",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: מלח, תבלינים, מרקים, רטבים, סלטים, מוצרים על בסיס חלבון (כול",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5511383,
+          32.9822597
+        ]
+      },
+      "properties": {
+        "id": "IND-1044",
+        "name": "פריניר (הדס 1987) בע\"מ",
+        "registry": "רשם החברות",
+        "years": 39,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "אזור התעשייה   חצור הגלילית מיקוד:10300",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "חצור הגלילית",
+        "authority": "חצור הגלילית",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "פירות וירקות",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: פירות וירקות, עשבי-ים, אגוזים וזרעים",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6069313,
+          33.2083039
+        ]
+      },
+      "properties": {
+        "id": "IND-1034",
+        "name": "משק קורלנדר בע\"מ",
+        "registry": "רשם החברות",
+        "years": 17,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "בית הלל מיקוד:1225500",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "בית הלל",
+        "authority": "מבואות החרמון",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "חלב ומוצריו; שמנים ושומנים",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: מוצרי חלב ומקביליהם, למעט מוצרים מסוג 02.0 שומנים ושמנים שבי",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6002764,
+          33.0055683
+        ]
+      },
+      "properties": {
+        "id": "IND-1051",
+        "name": "רם בול יזום פרויקטים בע\"מ",
+        "registry": "רשם החברות",
+        "years": 23,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "רחוב בני צפת 38, משמר הירדן מיקוד:1232000",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "משמר הירדן",
+        "authority": "מבואות החרמון",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "שמנים ושומנים",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: שומנים ושמנים ותחליבי שומן",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5531201,
+          33.1022998
+        ]
+      },
+      "properties": {
+        "id": "IND-1016",
+        "name": "יקב רמות נפתלי בע\"מ",
+        "registry": "רשם החברות",
+        "years": 22,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "מושב רמות נפתלי מיקוד:1383000",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "רמות נפתלי",
+        "authority": "מבואות החרמון",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור משקאות",
+        "foodGroup": "",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: יינות ענבים מבעבעים ומבעבעים למחצה",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5787414,
+          33.2794005
+        ]
+      },
+      "properties": {
+        "id": "IND-1043",
+        "name": "פרי מטולה חברה לקירור ולאריזה בע\"מ",
+        "registry": "רשם החברות",
+        "years": 55,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "הראשונים 57  מטולה",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "מטולה",
+        "authority": "מטולה",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "פירות וירקות",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: פירות וירקות, עשבי-ים, אגוזים וזרעים",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4475098,
+          33.0050817
+        ]
+      },
+      "properties": {
+        "id": "IND-1005",
+        "name": "בית היין - אור הגנוז בע\"מ",
+        "registry": "רשם החברות",
+        "years": 18,
+        "identificationSource": "ח.פ. מתוך מרשם המפעלים (המשרד להגנת הסביבה)",
+        "address": "ד.נ. מרום הגליל אור הגנוז מיקוד:1390000",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "אור הגנוז",
+        "authority": "מרום הגליל",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור משקאות",
+        "foodGroup": "",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: יינות ענבים",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4891939,
+          33.0166739
+        ]
+      },
+      "properties": {
+        "id": "IND-1001",
+        "name": "אורוקס 2022 בע\"מ",
+        "registry": "רשם החברות",
+        "years": 4,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "מושב דלתון מיקוד:1381000",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "דלתון",
+        "authority": "מרום הגליל",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "בשר ועופות",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: מוצרי בשר, עופות וצייד מעובדים בחתיכות שלמות או בנתחים, מוצר",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4769455,
+          33.0295954
+        ]
+      },
+      "properties": {
+        "id": "IND-0081",
+        "name": "יקב דלתון בע\"מ",
+        "registry": "רשם החברות",
+        "years": 30,
+        "identificationSource": "התאמת שם",
+        "address": "דלתון",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "דלתון",
+        "authority": "מרום הגליל",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור משקאות",
+        "foodGroup": "",
+        "website": "https://www.daltonwinery.com",
+        "description": "יקב דלתון: יין ישראלי איכותי ומשובח ממושב דלתון שבגליל",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4815629,
+          33.0295634
+        ]
+      },
+      "properties": {
+        "id": "IND-0084",
+        "name": "יקבי רקנאטי בע\"מ",
+        "registry": "רשם החברות",
+        "years": 25,
+        "identificationSource": "התאמת שם",
+        "address": "דלתון",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "דלתון",
+        "authority": "מרום הגליל",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור משקאות",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4793922,
+          33.0249054
+        ]
+      },
+      "properties": {
+        "id": "IND-0104",
+        "name": "מיטרוניקס",
+        "registry": "רשם החברות",
+        "years": 35,
+        "identificationSource": "התאמת שם",
+        "address": "דלתון",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "דלתון",
+        "authority": "מרום הגליל",
+        "addressSource": "",
+        "activityBranch": "ייצור מכונות וציוד לנמ\"א",
+        "foodGroup": "",
+        "website": "http://maytronics.com",
+        "description": "רובוטים לניקוי בריכות ביתיות עיליות ציבוריות ואקולוגיות",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4784419,
+          33.0276069
+        ]
+      },
+      "properties": {
+        "id": "IND-0130",
+        "name": "סאסא טק אגש\"ח בע\"מ",
+        "registry": "רשם האגודות השיתופיות",
+        "years": 26,
+        "identificationSource": "מיפוי ידני",
+        "address": "דלתון",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "דלתון",
+        "authority": "מרום הגליל",
+        "addressSource": "",
+        "activityBranch": "ייצור כימיקלים ומוצריהם",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4752026,
+          33.0293581
+        ]
+      },
+      "properties": {
+        "id": "IND-0153",
+        "name": "פלסן - רא\"מ רכב אזרחי ממוגן בע\"מ",
+        "registry": "רשם החברות",
+        "years": 11,
+        "identificationSource": "התאמת שם",
+        "address": "דלתון",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "דלתון",
+        "authority": "מרום הגליל",
+        "addressSource": "",
+        "activityBranch": "ייצור כלי תחבורה והובלה אחרים",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4782842,
+          33.0240852
+        ]
+      },
+      "properties": {
+        "id": "IND-0155",
+        "name": "פסטנונה",
+        "registry": "רשם החברות",
+        "years": 15,
+        "identificationSource": "מיפוי ידני",
+        "address": "דלתון",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "דלתון",
+        "authority": "מרום הגליל",
+        "addressSource": "",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4402813,
+          32.9886436
+        ]
+      },
+      "properties": {
+        "id": "IND-1045",
+        "name": "צ'אם פתרונות מזון בע\"מ",
+        "registry": "רשם החברות",
+        "years": 4,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "מירון מיקוד:1391000",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "מירון",
+        "authority": "מרום הגליל",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "פירות וירקות",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: פירות וירקות, עשבי-ים, אגוזים וזרעים",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4333332,
+          32.9333354
+        ]
+      },
+      "properties": {
+        "id": "IND-1011",
+        "name": "טופו קדיתא בע\"מ",
+        "registry": "רשם החברות",
+        "years": 8,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "ת\"ד 149, פרוד מיקוד:20110",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "פרוד",
+        "authority": "מרום הגליל",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "דגנים וקרקרים",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: דגנים ומוצריהם המיוצרים מגרעיני דגנים, משורשים ופקעות ומקטני",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4309093,
+          32.9194351
+        ]
+      },
+      "properties": {
+        "id": "IND-1041",
+        "name": "עז הגליל בע\"מ",
+        "registry": "רשם החברות",
+        "years": 10,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "עין כמונים מיקוד:2010900",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "פרוד",
+        "authority": "מרום הגליל",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "חלב ומוצריו",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: גבינה מובחלת, גבינות לבנות רכות, יוגורטים בטעמים",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4333332,
+          32.9333354
+        ]
+      },
+      "properties": {
+        "id": "IND-1055",
+        "name": "שמן זית סבא חביב בע\"מ",
+        "registry": "רשם החברות",
+        "years": 20,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "ת\"ד 60, פרוד מיקוד:2011000",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "פרוד",
+        "authority": "מרום הגליל",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "שמנים ושומנים",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: שומנים ושמנים ותחליבי שומן",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4843913,
+          32.9614929
+        ]
+      },
+      "properties": {
+        "id": "IND-0079",
+        "name": "יוניליוור ישראל מזון מפעל צפת",
+        "registry": "רשם החברות",
+        "years": 87,
+        "identificationSource": "מיפוי ידני",
+        "address": "צפת",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "צפת",
+        "authority": "צפת",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5054039,
+          32.9703602
+        ]
+      },
+      "properties": {
+        "id": "IND-1022",
+        "name": "מאפיית הר כנען בע\"מ",
+        "registry": "רשם החברות",
+        "years": 22,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "יוספטל 176  צפת מיקוד:13100",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "צפת",
+        "authority": "צפת",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "",
+        "website": "",
+        "description": "מחזיק רישיון ייצור מזון של משרד הבריאות ללא קבוצת מוצר מוצהרת",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5319169,
+          32.9582687
+        ]
+      },
+      "properties": {
+        "id": "IND-1032",
+        "name": "מצפה (חקלאות אורגנית) בע\"מ",
+        "registry": "",
+        "years": null,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "מלון מצפה הימים, ראש פינה",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "צפת",
+        "authority": "צפת",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "חלב ומוצריו",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: גבינות ומוצרים מקבילים (analogues)",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4960018,
+          32.9646707
+        ]
+      },
+      "properties": {
+        "id": "IND-0159",
+        "name": "צ'אם 2000 תעשיות מזון שותפות מוגבלת",
+        "registry": "רשם השותפויות",
+        "years": 27,
+        "identificationSource": "התאמת שם",
+        "address": "צפת",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "צפת",
+        "authority": "צפת",
+        "addressSource": "",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4853485,
+          32.9606096
+        ]
+      },
+      "properties": {
+        "id": "IND-1058",
+        "name": "שטראוס גרופ בע\"מ",
+        "registry": "רשם החברות",
+        "years": 93,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "צפת",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "צפת",
+        "authority": "צפת",
+        "addressSource": "",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7099148,
+          32.9938561
+        ]
+      },
+      "properties": {
+        "id": "IND-0032",
+        "name": "בנדע אריזות (פלזית)",
+        "registry": "",
+        "years": null,
+        "identificationSource": "",
+        "address": "קצרין",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "קצרין",
+        "authority": "קצרין",
+        "addressSource": "",
+        "activityBranch": "ייצור מוצרי גומי ופלסטיק",
+        "foodGroup": "",
+        "website": "",
+        "description": "חלק מקבוצה של 4 מפעלים שעוסקים בכלים חד פעמיים. (גזית, MCP, םולירז).",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7092447,
+          32.9894566
+        ]
+      },
+      "properties": {
+        "id": "IND-0069",
+        "name": "טבטק",
+        "registry": "",
+        "years": null,
+        "identificationSource": "",
+        "address": "קצרין",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "קצרין",
+        "authority": "קצרין",
+        "addressSource": "",
+        "activityBranch": "ענפי ייצור אחרים",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7077891,
+          32.990337
+        ]
+      },
+      "properties": {
+        "id": "IND-0074",
+        "name": "טנובה טכנולוגיות מתקדמות",
+        "registry": "רשם החברות",
+        "years": 26,
+        "identificationSource": "התאמת שם",
+        "address": "קצרין",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "קצרין",
+        "authority": "קצרין",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "מידע, תקשורת ותוכנה (הייטק)",
+        "foodGroup": "",
+        "website": "",
+        "description": "תכנון ואספקת ציוד למפעלים כימיים",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7085979,
+          32.9886645
+        ]
+      },
+      "properties": {
+        "id": "IND-0082",
+        "name": "יקב הגולן",
+        "registry": "רשם החברות",
+        "years": 43,
+        "identificationSource": "מיפוי ידני",
+        "address": "קצרין",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "קצרין",
+        "authority": "קצרין",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור משקאות",
+        "foodGroup": "",
+        "website": "https://www.golanheights.com",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6877037,
+          32.9920289
+        ]
+      },
+      "properties": {
+        "id": "IND-1017",
+        "name": "יקב רמת הגולן בע\"מ",
+        "registry": "רשם החברות",
+        "years": 44,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "אזור התעשיה  ת\"ד 183, קצרין מיקוד:1290017",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "קצרין",
+        "authority": "קצרין",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור משקאות",
+        "foodGroup": "יין ואלכוהול",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: יין",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6865315,
+          32.9903542
+        ]
+      },
+      "properties": {
+        "id": "IND-1025",
+        "name": "מאפיית קצרין בע\"מ",
+        "registry": "רשם החברות",
+        "years": 10,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "קצרין מיקוד:12900",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "קצרין",
+        "authority": "קצרין",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "לחם ומאפה",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: מוצרי מאפה, תערובות להכנתם ובצקים",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6865315,
+          32.9903542
+        ]
+      },
+      "properties": {
+        "id": "IND-1026",
+        "name": "מבשלת הגולן א.ח.ר. (2009) שותפות מוגבלת",
+        "registry": "שותפויות",
+        "years": 17,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "ת\"ד 64 קצרין מיקוד:129000",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "קצרין",
+        "authority": "קצרין",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור משקאות",
+        "foodGroup": "יין ואלכוהול; משקאות",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: בירה ומשקאות מאלט",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7116799,
+          32.993027
+        ]
+      },
+      "properties": {
+        "id": "IND-0097",
+        "name": "מחלבות הגולן",
+        "registry": "רשם החברות",
+        "years": 42,
+        "identificationSource": "מיפוי ידני",
+        "address": "קצרין",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "קצרין",
+        "authority": "קצרין",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "",
+        "website": "",
+        "description": "מקבוצת זנלכל - יכין, מיזוג ב 5/23. 7 מפעלים 2 בקצרין 5 בתבור. במחלבה קו חלב אוטומטי וקו גבינות ידני.",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.711433,
+          32.9893129
+        ]
+      },
+      "properties": {
+        "id": "IND-0102",
+        "name": "מי עדן",
+        "registry": "רשם החברות",
+        "years": 37,
+        "identificationSource": "התאמת שם",
+        "address": "קצרין",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "קצרין",
+        "authority": "קצרין",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור משקאות",
+        "foodGroup": "",
+        "website": "https://www.meyeden.co.il",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7090864,
+          32.9885242
+        ]
+      },
+      "properties": {
+        "id": "IND-0122",
+        "name": "נורדסון מדיקל",
+        "registry": "",
+        "years": null,
+        "identificationSource": "",
+        "address": "קצרין",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "קצרין",
+        "authority": "קצרין",
+        "addressSource": "",
+        "activityBranch": "ענפי ייצור אחרים",
+        "foodGroup": "",
+        "website": "",
+        "description": "פיתוח וייצורמ חוטי נטינול לניתוחים. חברה בינלאומית, יציבות אין גידול, קידום ופיתוח עובדים מבפנים, אוטומציה",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7080403,
+          32.9849407
+        ]
+      },
+      "properties": {
+        "id": "IND-1056",
+        "name": "ת.א.י. בשרים 2021 בע\"מ",
+        "registry": "רשם החברות",
+        "years": 5,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "סמדר 1 אזור תעשייה קצרין מיקוד:1422914",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "קצרין",
+        "authority": "קצרין",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "בשר ועופות",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: בשר ומוצריו, לרבות עופות וצייד",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.570786,
+          33.207476
+        ]
+      },
+      "properties": {
+        "id": "IND-1002",
+        "name": "אף אנד סי ליקוריס בע\"מ",
+        "registry": "רשם החברות",
+        "years": 27,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "ת\"ד 269 קרית שמונה מיקוד:1101201",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "קרית שמונה",
+        "authority": "קרית שמונה",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "חלב ומוצריו; תוספי תזונה",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: תוספי תזונה (Food supplements), מוצרי חלבון אחרים, תוספי מזו",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5699166,
+          33.2080143
+        ]
+      },
+      "properties": {
+        "id": "IND-0036",
+        "name": "ג\"ג - (ייצור ושווק מזון לבקר) בע\"מ",
+        "registry": "רשם החברות",
+        "years": 44,
+        "identificationSource": "התאמת שם",
+        "address": "קרית שמונה",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "קרית שמונה",
+        "authority": "קרית שמונה",
+        "addressSource": "",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5694442,
+          33.2070924
+        ]
+      },
+      "properties": {
+        "id": "IND-0042",
+        "name": "גליל כימיקלים בע\"מ",
+        "registry": "רשם החברות",
+        "years": 25,
+        "identificationSource": "התאמת שם",
+        "address": "קריית שמונה",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "קרית שמונה",
+        "authority": "קרית שמונה",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור כימיקלים ומוצריהם",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5870059,
+          33.2187808
+        ]
+      },
+      "properties": {
+        "id": "IND-0053",
+        "name": "דנטק תעשיות (2011) בע\"מ",
+        "registry": "רשם החברות",
+        "years": 14,
+        "identificationSource": "התאמת שם",
+        "address": "קריית שמונה",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "קרית שמונה",
+        "authority": "קרית שמונה",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור מוצרי גומי ופלסטיק",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.570786,
+          33.207476
+        ]
+      },
+      "properties": {
+        "id": "IND-1010",
+        "name": "טוטיפאפס בע\"מ",
+        "registry": "רשם החברות",
+        "years": 7,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "אלי הורוביץ 1  קרית שמונה מיקוד:1101202",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "קרית שמונה",
+        "authority": "קרית שמונה",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "חטיפים",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: חטיפים מוכנים לאכילה",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.575785,
+          33.1943127
+        ]
+      },
+      "properties": {
+        "id": "IND-0075",
+        "name": "טעמי הגליל",
+        "registry": "רשם החברות",
+        "years": 20,
+        "identificationSource": "התאמת שם",
+        "address": "קריית שמונה",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "קרית שמונה",
+        "authority": "קרית שמונה",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5909734,
+          33.2190739
+        ]
+      },
+      "properties": {
+        "id": "IND-0077",
+        "name": "טרופיקל - דגיל תעשיות קוסמטיקה בע\"מ",
+        "registry": "רשם החברות",
+        "years": 35,
+        "identificationSource": "התאמת שם",
+        "address": "קריית שמונה",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "קרית שמונה",
+        "authority": "קרית שמונה",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור כימיקלים ומוצריהם",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.570786,
+          33.207476
+        ]
+      },
+      "properties": {
+        "id": "IND-1020",
+        "name": "לחם גד בע\"מ",
+        "registry": "רשם החברות",
+        "years": 30,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "אזור תעשיה צפון  ת\"ד 590, קרית שמונה",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "קרית שמונה",
+        "authority": "קרית שמונה",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "לחם ומאפה",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: מוצרי מאפה, תערובות להכנתם ובצקים",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5679514,
+          33.2122595
+        ]
+      },
+      "properties": {
+        "id": "IND-1024",
+        "name": "מאפיית פת הגליל בע\"מ",
+        "registry": "רשם החברות",
+        "years": 22,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "סלינגר דוד 5 ת\"ד 500 קרית שמונה",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "קרית שמונה",
+        "authority": "קרית שמונה",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "לחם ומאפה",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: לחם ומוצרי מאפה רגילים",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5745532,
+          33.1952165
+        ]
+      },
+      "properties": {
+        "id": "IND-0112",
+        "name": "מפעלי הנדסה רמים בע\"מ",
+        "registry": "רשם החברות",
+        "years": 54,
+        "identificationSource": "התאמת שם",
+        "address": "קריית שמונה",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "קרית שמונה",
+        "authority": "קרית שמונה",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "תעשיית מתכות בסיסיות, מוצרי מתכת ועיבוד שבבי",
+        "foodGroup": "",
+        "website": "",
+        "description": "קבוצת מפעלים, סימט - חלקי חילוף לטנקים, עיבוד שבבים והרכבות, רמים - תאי קשר לחברות בטחוניות, רמי - עמודי חשמל.; CNC לתעשייה הבטחונית",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.570786,
+          33.207476
+        ]
+      },
+      "properties": {
+        "id": "IND-1037",
+        "name": "נביעות טבע הגליל בע\"מ",
+        "registry": "רשם החברות",
+        "years": 41,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "אזור תעשיה צפון   קרית שמונה מיקוד:1163528",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "קרית שמונה",
+        "authority": "קרית שמונה",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור משקאות",
+        "foodGroup": "יין ואלכוהול; משקאות",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: מים מינרליים טבעיים ומי-מעיין",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5865771,
+          33.2190825
+        ]
+      },
+      "properties": {
+        "id": "IND-0117",
+        "name": "נביעות קרית שמונה",
+        "registry": "",
+        "years": null,
+        "identificationSource": "",
+        "address": "קרית שמונה",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "קרית שמונה",
+        "authority": "קרית שמונה",
+        "addressSource": "",
+        "activityBranch": "ייצור משקאות",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5713587,
+          33.2078381
+        ]
+      },
+      "properties": {
+        "id": "IND-0128",
+        "name": "סאינה",
+        "registry": "רשם החברות",
+        "years": 36,
+        "identificationSource": "מיפוי ידני",
+        "address": "קרית שמונה",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "קרית שמונה",
+        "authority": "קרית שמונה",
+        "addressSource": "",
+        "activityBranch": "תעשיית מתכות בסיסיות, מוצרי מתכת ועיבוד שבבי",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5713587,
+          33.2078381
+        ]
+      },
+      "properties": {
+        "id": "IND-0129",
+        "name": "סאן הייטק בע\"מ",
+        "registry": "רשם החברות",
+        "years": 30,
+        "identificationSource": "התאמת שם",
+        "address": "קריית שמונה",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "קרית שמונה",
+        "authority": "קרית שמונה",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "הדפסה ושכפול של חומר תקשורתי מוקלט",
+        "foodGroup": "",
+        "website": "",
+        "description": "עצוב גרפי יעוץ והדפסה",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5846753,
+          33.2185797
+        ]
+      },
+      "properties": {
+        "id": "IND-0133",
+        "name": "סימפליוויה",
+        "registry": "",
+        "years": null,
+        "identificationSource": "",
+        "address": "קרית שמונה",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "קרית שמונה",
+        "authority": "קרית שמונה",
+        "addressSource": "",
+        "activityBranch": "ענפי ייצור אחרים",
+        "foodGroup": "",
+        "website": "",
+        "description": "טבע, קרן פוגי, מכשור רפואי, הזרקה, הרכבה, אריזה, סטריליזציה, עובדים ב 3 משמרות. רוב נשי; ציוד רפואי",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5877063,
+          33.2163512
+        ]
+      },
+      "properties": {
+        "id": "IND-0134",
+        "name": "סימת תעשיות בע\"מ",
+        "registry": "רשם החברות",
+        "years": 35,
+        "identificationSource": "התאמת שם",
+        "address": "קריית שמונה",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "קרית שמונה",
+        "authority": "קרית שמונה",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור מוצרי מתכת בהרכבה, פרט למכונות ולציוד",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5693969,
+          33.191636
+        ]
+      },
+      "properties": {
+        "id": "IND-0142",
+        "name": "עוף הגליל בע\"מ",
+        "registry": "רשם החברות",
+        "years": 65,
+        "identificationSource": "התאמת שם",
+        "address": "קרית שמונה",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "קרית שמונה",
+        "authority": "קרית שמונה",
+        "addressSource": "",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.570786,
+          33.207476
+        ]
+      },
+      "properties": {
+        "id": "IND-1046",
+        "name": "צוף גלובוס בע\"מ",
+        "registry": "רשם החברות",
+        "years": 30,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "אלי הורוביץ 67 ת\"ד 931, קרית שמונה מיקוד:1101802",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "קרית שמונה",
+        "authority": "קרית שמונה",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "תוספי תזונה",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: תוספי תזונה (Food supplements)",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5695368,
+          33.207584
+        ]
+      },
+      "properties": {
+        "id": "IND-0169",
+        "name": "רימוני פלסט",
+        "registry": "רשם החברות",
+        "years": 46,
+        "identificationSource": "התאמת שם",
+        "address": "קריית שמונה",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "קרית שמונה",
+        "authority": "קרית שמונה",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור מוצרי גומי ופלסטיק",
+        "foodGroup": "",
+        "website": "",
+        "description": "ייצור פלסטיק",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5678525,
+          33.1936019
+        ]
+      },
+      "properties": {
+        "id": "IND-0184",
+        "name": "תנובה גליל שותפות מוגבלת",
+        "registry": "רשם השותפויות",
+        "years": 26,
+        "identificationSource": "התאמת שם",
+        "address": "קרית שמונה",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "קרית שמונה",
+        "authority": "קרית שמונה",
+        "addressSource": "",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5685874,
+          33.2113323
+        ]
+      },
+      "properties": {
+        "id": "IND-1057",
+        "name": "תעשיות צח (מאפיית כהן) בע\"מ",
+        "registry": "רשם החברות",
+        "years": 41,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "המכבים 9 ת\"ד 794, קרית שמונה מיקוד:1156505",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "קרית שמונה",
+        "authority": "קרית שמונה",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "לחם ומאפה",
+        "website": "",
+        "description": "קבוצת מזון במרשם משרד הבריאות: לחמים ולחמניות",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5826392,
+          33.2224422
+        ]
+      },
+      "properties": {
+        "id": "IND-0189",
+        "name": "תרמו פישר ישראל בע\"מ",
+        "registry": "רשם החברות",
+        "years": 32,
+        "identificationSource": "התאמת שם",
+        "address": "קריית שמונה",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "קרית שמונה",
+        "authority": "קרית שמונה",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור תרופות, כולל תרופות הומאופתיות",
+        "foodGroup": "",
+        "website": "https://www.thermofisher.com",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5683932,
+          32.9714536
+        ]
+      },
+      "properties": {
+        "id": "IND-0014",
+        "name": "איט איז בע\"מ",
+        "registry": "רשם החברות",
+        "years": 27,
+        "identificationSource": "התאמת שם",
+        "address": "ראש פינה",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "ראש פינה",
+        "authority": "ראש פינה",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור מחשבים, מכשור אלקטרוני ואופטי",
+        "foodGroup": "",
+        "website": "",
+        "description": "אלקטרוניקה",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5635723,
+          32.9719343
+        ]
+      },
+      "properties": {
+        "id": "IND-0018",
+        "name": "אלקטו גליל בע\"מ",
+        "registry": "רשם החברות",
+        "years": 43,
+        "identificationSource": "התאמת שם",
+        "address": "ראש פינה",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "ראש פינה",
+        "authority": "ראש פינה",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור מחשבים, מכשור אלקטרוני ואופטי",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5672271,
+          32.9695258
+        ]
+      },
+      "properties": {
+        "id": "IND-0026",
+        "name": "אקרשטיין תעשיות בע\"מ - אתר של חבר",
+        "registry": "רשם החברות",
+        "years": 37,
+        "identificationSource": "מיפוי ידני",
+        "address": "ראש פינה",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "ראש פינה",
+        "authority": "ראש פינה",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור מוצרים אחרים על בסיס מינרלים אל-מתכתיים",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5674255,
+          32.9687654
+        ]
+      },
+      "properties": {
+        "id": "IND-0057",
+        "name": "הבאר מעדנים בעמ",
+        "registry": "רשם החברות",
+        "years": 14,
+        "identificationSource": "התאמת שם",
+        "address": "ראש פינה",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "ראש פינה",
+        "authority": "ראש פינה",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "",
+        "website": "",
+        "description": "מזון",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5669045,
+          32.973059
+        ]
+      },
+      "properties": {
+        "id": "IND-0095",
+        "name": "מדיסים",
+        "registry": "רשם החברות",
+        "years": 30,
+        "identificationSource": "התאמת שם",
+        "address": "ראש פינה",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "ראש פינה",
+        "authority": "ראש פינה",
+        "addressSource": "",
+        "activityBranch": "ייצור תרופות, כולל תרופות הומאופתיות",
+        "foodGroup": "",
+        "website": "",
+        "description": "",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5655169,
+          32.9705858
+        ]
+      },
+      "properties": {
+        "id": "IND-0096",
+        "name": "מודגל מתכת (99) בע\"מ",
+        "registry": "רשם החברות",
+        "years": 26,
+        "identificationSource": "התאמת שם",
+        "address": "ראש פינה",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "ראש פינה",
+        "authority": "ראש פינה",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "תעשיית מתכות בסיסיות, מוצרי מתכת ועיבוד שבבי",
+        "foodGroup": "",
+        "website": "http://www.modgalmetal.com",
+        "description": "מפעל יציקה ומוצרי מתכת (מצמדים ואביזרי צינורות) | Modgal Metal (99) Ltd. is the manufacturer of the elite Quikcoup grooved products line … A modern equipped foundry with up-to-date advanced technologies, galvanizi",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5358181,
+          32.9698032
+        ]
+      },
+      "properties": {
+        "id": "IND-1028",
+        "name": "מחלבות גד ( שיווק - 1992) בע\"מ",
+        "registry": "רשם החברות",
+        "years": 34,
+        "identificationSource": "מרשם רישוי מזון, משרד הבריאות",
+        "address": "יחדיו 1  שמרת מיקוד:2521800",
+        "locationPrecision": "כתובת מלאה",
+        "settlement": "ראש פינה",
+        "authority": "ראש פינה",
+        "addressSource": "מרשם רישוי מזון, משרד הבריאות",
+        "activityBranch": "ייצור מוצרי מזון",
+        "foodGroup": "",
+        "website": "",
+        "description": "מחזיק רישיון ייצור מזון של משרד הבריאות ללא קבוצת מוצר מוצהרת",
+        "source": "משרד הבריאות"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5718036,
+          32.9703219
+        ]
+      },
+      "properties": {
+        "id": "IND-0132",
+        "name": "סולרום אלקטרוניקה בע\"מ",
+        "registry": "רשם החברות",
+        "years": 38,
+        "identificationSource": "התאמת שם",
+        "address": "ראש פינה",
+        "locationPrecision": "יישוב בלבד",
+        "settlement": "ראש פינה",
+        "authority": "ראש פינה",
+        "addressSource": "מרשם המפעלים - המשרד להגנת הסביבה",
+        "activityBranch": "ייצור מחשבים, מכשור אלקטרוני ואופטי",
+        "foodGroup": "",
+        "website": "",
+        "description": "אלקטרוניקה",
+        "source": "התעשייה הקיבוצי. אשכול גליל מזרחי"
+      }
+    }
+  ]
+}

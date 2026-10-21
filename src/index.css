@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Heebo", "Arial Hebrew", Arial, sans-serif;
+  --color-ink: #122033;
+  --color-navy: #0e2a47;
+  --color-muted: #3e4c5a;
+  --color-line: #d5dee8;
+  --color-paper: #f4f7fb;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background: var(--color-paper);
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+a:focus-visible {
+  outline: 3px solid #1f6feb;
+  outline-offset: 2px;
+}
+
+.maplibregl-map {
+  font-family: inherit;
+}
+
+.maplibregl-ctrl-attrib {
+  font-size: 11px;
+}
+
+.maplibregl-canvas {
+  outline: none;
+}
