@@ -1,37 +1,48 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import rawBusinesses from "./data/businesses.json"
+import rawParcels from "./data/parcels.json"
+import rawZones from "./data/zones.json"
 import { Header } from "./components/Header"
 import { KpiStrip } from "./components/KpiStrip"
 import { UpdateForm } from "./components/UpdateForm"
 import { ZoneMap } from "./components/ZoneMap"
 import { config } from "./config"
-import { groupByPlace, listAuthorities, loadBusinesses, locationKey } from "./lib/businesses"
+import { businessesInside, loadBusinesses, loadParcels, loadZones, samePlace } from "./lib/places"
 import { summarize } from "./lib/stats"
 import { loadUpdates, persistUpdates } from "./lib/storage"
 import type { BusinessUpdate } from "./types"
 
 export default function App() {
-  const all = useMemo(() => loadBusinesses(rawBusinesses), [])
-  const authorities = useMemo(() => listAuthorities(all), [all])
-  const businesses = useMemo(
-    () => all.filter((business) => business.authority === config.authority),
-    [all],
+  const zones = useMemo(() => loadZones(rawZones), [])
+  const allParcels = useMemo(() => loadParcels(rawParcels), [])
+  const businesses = useMemo(() => loadBusinesses(rawBusinesses), [])
+  const zoneNames = useMemo(
+    () => zones.map((zone) => zone.name).sort((a, b) => a.localeCompare(b, "he")),
+    [zones],
   )
-  const [updates, setUpdates] = useState(() => loadUpdates(new Set(businesses.map((business) => business.id))))
+  const zone = zones.find((item) => samePlace(item.name, config.zone)) ?? null
+  const parcels = useMemo(
+    () => allParcels.filter((parcel) => samePlace(parcel.zone, config.zone)),
+    [allParcels],
+  )
+  const [updates, setUpdates] = useState(() => loadUpdates(new Set(parcels.map((parcel) => parcel.id))))
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const guardRef = useRef<(action: () => void) => void>((action) => action())
 
   useEffect(() => {
-    document.title = `עדכון עסקים · ${config.authority}`
+    document.title = `עדכון מגרשים · ${config.zone}`
   }, [])
 
-  const selectBusiness = useCallback((id: string | null) => {
+  const selectParcel = useCallback((id: string | null) => {
     guardRef.current(() => setSelectedId(id))
   }, [])
 
-  const summary = useMemo(() => summarize(businesses, updates), [businesses, updates])
-  const selected = businesses.find((business) => business.id === selectedId) ?? null
-  const pile = selected ? (groupByPlace(businesses).get(locationKey(selected)) ?? [selected]) : []
+  const summary = useMemo(() => summarize(parcels, updates), [parcels, updates])
+  const selected = parcels.find((parcel) => parcel.id === selectedId) ?? null
+  const inside = useMemo(
+    () => (selected ? businessesInside(selected, businesses) : []),
+    [selected, businesses],
+  )
 
   function save(update: BusinessUpdate) {
     if (!selected) return
@@ -43,8 +54,8 @@ export default function App() {
   return (
     <div className="flex h-dvh flex-col bg-paper">
       <Header />
-      {businesses.length === 0 ? (
-        <EmptyAuthority name={config.authority} authorities={authorities} />
+      {!zone || parcels.length === 0 ? (
+        <EmptyZone name={config.zone} zones={zoneNames} />
       ) : (
         <main className="flex min-h-0 flex-1 flex-col overflow-auto">
           <div className="shrink-0">
@@ -53,20 +64,20 @@ export default function App() {
           <div className="flex min-h-[560px] flex-1 flex-col md:flex-row">
             <UpdateForm
               key={selected?.id ?? "none"}
-              business={selected}
-              pile={pile}
+              parcel={selected}
+              businesses={inside}
               update={selected ? updates[selected.id] : undefined}
               guardRef={guardRef}
-              onSelect={selectBusiness}
               onSave={save}
-              onClose={() => selectBusiness(null)}
+              onClose={() => selectParcel(null)}
             />
             <div className="relative min-h-[70vh] flex-1 md:min-h-0">
               <ZoneMap
-                businesses={businesses}
+                zone={zone}
+                parcels={parcels}
                 updates={updates}
                 selectedId={selectedId}
-                onSelect={selectBusiness}
+                onSelect={selectParcel}
               />
             </div>
           </div>
@@ -76,17 +87,17 @@ export default function App() {
   )
 }
 
-function EmptyAuthority({ name, authorities }: { name: string; authorities: string[] }) {
+function EmptyZone({ name, zones }: { name: string; zones: string[] }) {
   return (
     <section className="mx-auto w-full max-w-xl px-4 py-8">
-      <h2 className="text-2xl font-extrabold text-navy">לא נמצאו עסקים עבור «{name}»</h2>
+      <h2 className="text-2xl font-extrabold text-navy">לא נמצא אזור בשם «{name}»</h2>
       <p className="mt-3 text-lg leading-relaxed">
-        פתחו את הקובץ <span className="font-bold">src/config.ts</span> וכתבו את שם הרשות בדיוק כמו ברשימה:
+        פתחו את הקובץ <span className="font-bold">src/config.ts</span> וכתבו את שם האזור בדיוק כמו ברשימה:
       </p>
       <ul className="mt-4 space-y-2">
-        {authorities.map((authority) => (
-          <li key={authority} className="rounded-xl bg-white px-4 py-3 text-lg font-bold">
-            {authority}
+        {zones.map((zone) => (
+          <li key={zone} className="rounded-xl bg-white px-4 py-3 text-lg font-bold">
+            {zone}
           </li>
         ))}
       </ul>

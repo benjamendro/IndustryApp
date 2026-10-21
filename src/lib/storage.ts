@@ -2,7 +2,7 @@ import { config } from "../config"
 import { buildDemoSeed } from "../data/demoSeed"
 import { ACTIVITY_TYPES, BUILDING_STATUSES, EMPLOYEE_RANGES, type BusinessUpdate } from "../types"
 
-const storageKey = `industry-updates:v1:${config.authority}`
+const storageKey = `industry-updates:v2:${config.zone}`
 
 const statuses = new Set<string>(BUILDING_STATUSES.map((item) => item.value))
 const activities = new Set<string>(ACTIVITY_TYPES.map((item) => item.value))
@@ -36,7 +36,7 @@ export function loadUpdates(ids: Set<string>): Record<string, BusinessUpdate> {
         for (const [id, value] of Object.entries(parsed)) {
           if (ids.has(id) && isUpdate(value)) clean[id] = value
         }
-        return clean
+        if (Object.keys(clean).length > 0) return clean
       }
     }
   } catch {
@@ -44,7 +44,7 @@ export function loadUpdates(ids: Set<string>): Record<string, BusinessUpdate> {
   }
 
   const seeded = buildDemoSeed(ids)
-  persistUpdates(seeded)
+  if (Object.keys(seeded).length > 0) persistUpdates(seeded)
   return seeded
 }
 

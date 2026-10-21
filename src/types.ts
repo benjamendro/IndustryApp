@@ -51,6 +51,7 @@ export type Business = {
   lat: number
 }
 
+/** Manager update for one parcel. Not part of the GIS layers. */
 export type BusinessUpdate = {
   status: BuildingStatus
   currentName: string
@@ -62,4 +63,25 @@ export type BusinessUpdate = {
   updatedAt: string
   updatedBy: string
   isDemo: boolean
+}
+
+export type Ring = number[][]
+
+export type Parcel = {
+  id: string
+  zone: string
+  plan: string
+  planStatus: string
+  number: string
+  landUse: string
+  landUseCategory: string
+  surveyStatus: string
+  /** Source column `Dunam`, which is square meters. */
+  areaSqm: number
+  rings: Ring[]
+}
+
+export type ZoneArea = {
+  name: string
+  rings: Ring[]
 }

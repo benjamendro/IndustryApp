@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState, type MutableRefObject } from "react"
 import { config } from "../config"
-import { formatUpdatedAt, precisionLabel } from "../lib/labels"
+import { formatDunam, formatUpdatedAt } from "../lib/labels"
+import { dunamOf } from "../lib/places"
 import {
   ACTIVITY_TYPES,
   BUILDING_STATUSES,
@@ -10,14 +11,14 @@ import {
   type Business,
   type BusinessUpdate,
   type EmployeeRange,
+  type Parcel,
 } from "../types"
 
 type Props = {
-  business: Business | null
-  pile: Business[]
+  parcel: Parcel | null
+  businesses: Business[]
   update?: BusinessUpdate
   guardRef: MutableRefObject<(action: () => void) => void>
-  onSelect: (id: string) => void
   onSave: (update: BusinessUpdate) => void
   onClose: () => void
 }
@@ -48,7 +49,7 @@ function snapshot(draft: Draft) {
   return JSON.stringify(draft)
 }
 
-export function UpdateForm({ business, pile, update, guardRef, onSelect, onSave, onClose }: Props) {
+export function UpdateForm({ parcel, businesses, update, guardRef, onSave, onClose }: Props) {
   const initial = draftFrom(update)
   const [draft, setDraft] = useState<Draft>(initial)
   const [error, setError] = useState("")
@@ -81,11 +82,11 @@ export function UpdateForm({ business, pile, update, guardRef, onSelect, onSave,
     }
   }, [guardRef])
 
-  if (!business) {
+  if (!parcel) {
     return (
       <aside className="hidden h-full w-[400px] shrink-0 flex-col justify-center border-e border-line bg-white p-8 text-center md:flex">
-        <h2 className="text-2xl font-extrabold text-navy">בחרו עסק במפה</h2>
-        <p className="mt-3 text-lg leading-relaxed text-muted">לחץ על עסק במפה כדי לעדכן את הפרטים שלו.</p>
+        <h2 className="text-2xl font-extrabold text-navy">בחרו מגרש במפה</h2>
+        <p className="mt-3 text-lg leading-relaxed text-muted">לחץ על מגרש במפה כדי לעדכן את הפרטים שלו.</p>
       </aside>
     )
   }
@@ -96,7 +97,7 @@ export function UpdateForm({ business, pile, update, guardRef, onSelect, onSave,
   }
 
   function save() {
-    if (!business) return
+    if (!parcel) return
     if (!draft.status) {
       setError("בחרו מצב בנייה: פנוי, בנוי, או בנוי חלקית.")
       return
@@ -125,221 +126,218 @@ export function UpdateForm({ business, pile, update, guardRef, onSelect, onSave,
     setError("")
   }
 
+  const titleName = update?.currentName.trim()
+
   return (
     <>
-    <button
-      type="button"
-      className="fixed inset-0 z-20 bg-[#0E2A47]/40 md:hidden"
-      aria-label="סגירה"
-      onClick={onClose}
-    />
-    <aside className="fixed inset-x-0 bottom-0 z-30 flex max-h-[78dvh] min-h-0 flex-col overflow-hidden rounded-t-3xl bg-white shadow-[0_-8px_30px_rgba(14,42,71,0.18)] md:static md:z-auto md:h-full md:max-h-none md:w-[400px] md:shrink-0 md:rounded-none md:border-e md:border-line md:shadow-none">
-      <div className="mx-auto mt-2 h-1.5 w-12 shrink-0 rounded-full bg-line md:hidden" />
-      <div className="flex items-start justify-between gap-3 px-4 pb-3 pt-3 md:pt-4">
-        <div>
-          <h2 ref={headingRef} tabIndex={-1} className="text-xl font-extrabold leading-snug text-navy outline-none">
-            {business.name}
-          </h2>
-          {update?.isDemo && (
-            <p className="mt-1 inline-block rounded-full bg-[#FFF6DE] px-3 py-1 text-sm font-bold text-[#6A4B00]">
-              הדגמה
-            </p>
-          )}
+      <button
+        type="button"
+        className="fixed inset-0 z-20 bg-[#0E2A47]/40 md:hidden"
+        aria-label="סגירה"
+        onClick={onClose}
+      />
+      <aside className="fixed inset-x-0 bottom-0 z-30 flex max-h-[78dvh] min-h-0 flex-col overflow-hidden rounded-t-3xl bg-white shadow-[0_-8px_30px_rgba(14,42,71,0.18)] md:static md:z-auto md:h-full md:max-h-none md:w-[400px] md:shrink-0 md:rounded-none md:border-e md:border-line md:shadow-none">
+        <div className="mx-auto mt-2 h-1.5 w-12 shrink-0 rounded-full bg-line md:hidden" />
+        <div className="flex items-start justify-between gap-3 px-4 pb-3 pt-3 md:pt-4">
+          <div>
+            <h2 ref={headingRef} tabIndex={-1} className="text-xl font-extrabold leading-snug text-navy outline-none">
+              מגרש {parcel.number}
+            </h2>
+            {titleName && <p className="mt-1 text-base font-semibold">{titleName}</p>}
+            {update?.isDemo && (
+              <p className="mt-1 inline-block rounded-full bg-[#FFF6DE] px-3 py-1 text-sm font-bold text-[#6A4B00]">
+                הדגמה
+              </p>
+            )}
+          </div>
+          <button
+            type="button"
+            onClick={onClose}
+            className="h-11 shrink-0 rounded-xl border border-line px-4 text-base font-bold md:hidden"
+          >
+            סגירה
+          </button>
         </div>
-        <button
-          type="button"
-          onClick={onClose}
-          className="h-11 shrink-0 rounded-xl border border-line px-4 text-base font-bold md:hidden"
-        >
-          סגירה
-        </button>
-      </div>
 
-      <form
-        className="flex min-h-0 flex-1 flex-col"
-        onSubmit={(event) => {
-          event.preventDefault()
-          save()
-        }}
-      >
-        <div className="min-h-0 flex-1 overflow-y-auto px-4 pb-4">
-          {pile.length > 1 && (
-            <div className="mb-4 rounded-2xl bg-paper p-3">
-              <p className="text-sm font-bold">בנקודה הזו יש {pile.length} עסקים. בחרו את העסק לעדכון:</p>
-              <div className="mt-2 flex flex-wrap gap-2">
-                {pile.map((item) => (
+        <form
+          className="flex min-h-0 flex-1 flex-col"
+          onSubmit={(event) => {
+            event.preventDefault()
+            save()
+          }}
+        >
+          <div className="min-h-0 flex-1 overflow-y-auto px-4 pb-4">
+            {update?.isDemo && (
+              <p className="mb-3 text-sm leading-relaxed text-[#6A4B00]">
+                הפרטים שמופיעים כאן הם דוגמה בלבד. שמירה תחליף אותם בעדכון שלכם.
+              </p>
+            )}
+
+            <dl>
+              <ReadRow label="מספר מגרש" value={parcel.number} />
+              <ReadRow label="מספר תכנית" value={parcel.plan} />
+              <ReadRow label="מצב אישור התכנית" value={parcel.planStatus} />
+              <ReadRow label="ייעוד" value={parcel.landUse} />
+              <ReadRow label="קטגוריית ייעוד" value={parcel.landUseCategory} />
+              <ReadRow label="שטח" value={`${formatDunam(dunamOf(parcel))} דונם`} />
+              <ReadRow label="מצב בנייה לפי הסקר" value={parcel.surveyStatus} />
+            </dl>
+
+            <div className="mt-3 border-b border-line pb-3">
+              <p className="text-sm font-semibold text-muted">עסקים לפי הסקר במגרש הזה</p>
+              {businesses.length === 0 ? (
+                <p className="text-base">לא נמצא עסק מהסקר בתוך המגרש.</p>
+              ) : (
+                <ul className="mt-1 space-y-1">
+                  {businesses.map((business) => (
+                    <li key={business.id} className="text-base font-semibold">
+                      {business.name}
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+
+            <fieldset className="mt-4">
+              <legend className="mb-2 text-base font-bold">
+                מצב בנייה <span className="text-[#9B2C2C]">*</span>
+              </legend>
+              <div className="grid grid-cols-3 gap-2">
+                {BUILDING_STATUSES.map((item) => (
                   <button
-                    key={item.id}
+                    key={item.value}
                     type="button"
-                    aria-pressed={item.id === business.id}
-                    onClick={() => onSelect(item.id)}
-                    className={`min-h-11 rounded-full px-3 py-2 text-sm font-bold ${
-                      item.id === business.id ? "bg-navy text-white" : "bg-white text-navy"
+                    aria-pressed={draft.status === item.value}
+                    onClick={() => updateDraft({ status: item.value })}
+                    className={`min-h-12 rounded-xl border px-2 text-sm font-bold ${
+                      draft.status === item.value ? "border-navy bg-navy text-white" : "border-line bg-white"
                     }`}
                   >
-                    {item.name}
+                    {item.label}
                   </button>
                 ))}
               </div>
-            </div>
-          )}
+            </fieldset>
 
-          {update?.isDemo && (
-            <p className="mb-3 text-sm leading-relaxed text-[#6A4B00]">
-              הפרטים שמופיעים כאן הם דוגמה בלבד. שמירה תחליף אותם בעדכון שלכם.
-            </p>
-          )}
+            <label className="mt-4 block text-base font-bold" htmlFor="current-name">
+              שם העסק כיום
+            </label>
+            <input
+              id="current-name"
+              value={draft.currentName}
+              onChange={(event) => updateDraft({ currentName: event.target.value })}
+              placeholder="אם השם השתנה, כתבו את השם העדכני"
+              className="mt-2 h-12 w-full rounded-xl border border-line px-3 text-base"
+              autoComplete="off"
+            />
 
-          <dl>
-            <ReadRow label="מספר בסקר" value={business.id} />
-            <ReadRow label="שם לפי הסקר" value={business.name} />
-            <ReadRow label="ענף פעילות" value={business.activityBranch} />
-            <ReadRow label="יישוב" value={business.settlement} />
-            <ReadRow label="כתובת" value={business.address} />
-            <ReadRow label="דיוק המיקום" value={precisionLabel(business.locationPrecision)} />
-          </dl>
-
-          <fieldset className="mt-4">
-            <legend className="mb-2 text-base font-bold">
-              מצב בנייה <span className="text-[#9B2C2C]">*</span>
-            </legend>
-            <div className="grid grid-cols-3 gap-2">
-              {BUILDING_STATUSES.map((item) => (
-                <button
-                  key={item.value}
-                  type="button"
-                  aria-pressed={draft.status === item.value}
-                  onClick={() => updateDraft({ status: item.value })}
-                  className={`min-h-12 rounded-xl border px-2 text-sm font-bold ${
-                    draft.status === item.value ? "border-navy bg-navy text-white" : "border-line bg-white"
-                  }`}
-                >
+            <label className="mt-4 block text-base font-bold" htmlFor="activity-type">
+              סוג הפעילות היום
+            </label>
+            <select
+              id="activity-type"
+              value={draft.activityType}
+              onChange={(event) => updateDraft({ activityType: event.target.value as ActivityType | "" })}
+              className="mt-2 h-12 w-full rounded-xl border border-line bg-white px-3 text-base"
+            >
+              <option value="">בחירה</option>
+              {ACTIVITY_TYPES.map((item) => (
+                <option key={item.value} value={item.value}>
                   {item.label}
-                </button>
+                </option>
               ))}
-            </div>
-          </fieldset>
+            </select>
 
-          <label className="mt-4 block text-base font-bold" htmlFor="current-name">
-            שם העסק כיום
-          </label>
-          <input
-            id="current-name"
-            value={draft.currentName}
-            onChange={(event) => updateDraft({ currentName: event.target.value })}
-            placeholder="אם השם השתנה, כתבו את השם העדכני"
-            className="mt-2 h-12 w-full rounded-xl border border-line px-3 text-base"
-            autoComplete="off"
-          />
-
-          <label className="mt-4 block text-base font-bold" htmlFor="activity-type">
-            סוג הפעילות היום
-          </label>
-          <select
-            id="activity-type"
-            value={draft.activityType}
-            onChange={(event) => updateDraft({ activityType: event.target.value as ActivityType | "" })}
-            className="mt-2 h-12 w-full rounded-xl border border-line bg-white px-3 text-base"
-          >
-            <option value="">בחירה</option>
-            {ACTIVITY_TYPES.map((item) => (
-              <option key={item.value} value={item.value}>
-                {item.label}
-              </option>
-            ))}
-          </select>
-
-          <label className="mt-4 block text-base font-bold" htmlFor="employees">
-            מספר עובדים
-          </label>
-          <select
-            id="employees"
-            value={draft.employees}
-            onChange={(event) => updateDraft({ employees: event.target.value as EmployeeRange | "" })}
-            className="mt-2 h-12 w-full rounded-xl border border-line bg-white px-3 text-base"
-          >
-            <option value="">בחירה</option>
-            {EMPLOYEE_RANGES.map((item) => (
-              <option key={item.value} value={item.value}>
-                {item.label}
-              </option>
-            ))}
-          </select>
-
-          <fieldset className="mt-4">
-            <legend className="mb-2 text-base font-bold">פנוי להשכרה או למכירה?</legend>
-            <div className="grid grid-cols-2 gap-2">
-              {[
-                { value: true, label: "כן" },
-                { value: false, label: "לא" },
-              ].map((item) => (
-                <button
-                  key={item.label}
-                  type="button"
-                  aria-pressed={draft.available === item.value}
-                  onClick={() => updateDraft({ available: item.value })}
-                  className={`min-h-12 rounded-xl border text-base font-bold ${
-                    draft.available === item.value ? "border-navy bg-navy text-white" : "border-line bg-white"
-                  }`}
-                >
+            <label className="mt-4 block text-base font-bold" htmlFor="employees">
+              מספר עובדים
+            </label>
+            <select
+              id="employees"
+              value={draft.employees}
+              onChange={(event) => updateDraft({ employees: event.target.value as EmployeeRange | "" })}
+              className="mt-2 h-12 w-full rounded-xl border border-line bg-white px-3 text-base"
+            >
+              <option value="">בחירה</option>
+              {EMPLOYEE_RANGES.map((item) => (
+                <option key={item.value} value={item.value}>
                   {item.label}
-                </button>
+                </option>
               ))}
-            </div>
-          </fieldset>
+            </select>
 
-          {draft.available === true && (
-            <>
-              <label className="mt-4 block text-base font-bold" htmlFor="contact">
-                פרטי קשר
-              </label>
-              <input
-                id="contact"
-                value={draft.contact}
-                onChange={(event) => updateDraft({ contact: event.target.value })}
-                placeholder="שם ומספר טלפון"
-                className="mt-2 h-12 w-full rounded-xl border border-line px-3 text-base"
-                autoComplete="off"
-              />
-            </>
-          )}
+            <fieldset className="mt-4">
+              <legend className="mb-2 text-base font-bold">פנוי להשכרה או למכירה?</legend>
+              <div className="grid grid-cols-2 gap-2">
+                {[
+                  { value: true, label: "כן" },
+                  { value: false, label: "לא" },
+                ].map((item) => (
+                  <button
+                    key={item.label}
+                    type="button"
+                    aria-pressed={draft.available === item.value}
+                    onClick={() => updateDraft({ available: item.value })}
+                    className={`min-h-12 rounded-xl border text-base font-bold ${
+                      draft.available === item.value ? "border-navy bg-navy text-white" : "border-line bg-white"
+                    }`}
+                  >
+                    {item.label}
+                  </button>
+                ))}
+              </div>
+            </fieldset>
 
-          <label className="mt-4 block text-base font-bold" htmlFor="notes">
-            הערות
-          </label>
-          <textarea
-            id="notes"
-            value={draft.notes}
-            onChange={(event) => updateDraft({ notes: event.target.value })}
-            rows={3}
-            className="mt-2 w-full rounded-xl border border-line px-3 py-3 text-base"
-          />
+            {draft.available === true && (
+              <>
+                <label className="mt-4 block text-base font-bold" htmlFor="contact">
+                  פרטי קשר
+                </label>
+                <input
+                  id="contact"
+                  value={draft.contact}
+                  onChange={(event) => updateDraft({ contact: event.target.value })}
+                  placeholder="שם ומספר טלפון"
+                  className="mt-2 h-12 w-full rounded-xl border border-line px-3 text-base"
+                  autoComplete="off"
+                />
+              </>
+            )}
 
-          <p className="mt-4 text-sm leading-relaxed text-muted">
-            {update
-              ? `עדכון אחרון: ${formatUpdatedAt(update.updatedAt)} · ${update.updatedBy}`
-              : "עדיין אין עדכון של המנהל"}
-          </p>
+            <label className="mt-4 block text-base font-bold" htmlFor="notes">
+              הערות
+            </label>
+            <textarea
+              id="notes"
+              value={draft.notes}
+              onChange={(event) => updateDraft({ notes: event.target.value })}
+              rows={3}
+              className="mt-2 w-full rounded-xl border border-line px-3 py-3 text-base"
+            />
 
-        </div>
-
-        <div className="shrink-0 border-t border-line bg-white p-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
-          {error && (
-            <p role="alert" className="mb-3 rounded-xl bg-[#FDECEC] px-3 py-2 text-base font-semibold text-[#9B2C2C]">
-              {error}
+            <p className="mt-4 text-sm leading-relaxed text-muted">
+              {update
+                ? `עדכון אחרון: ${formatUpdatedAt(update.updatedAt)} · ${update.updatedBy}`
+                : "עדיין אין עדכון של המנהל"}
             </p>
-          )}
-          {saved && (
-            <p role="status" className="mb-3 rounded-xl bg-[#E5F6EF] px-3 py-2 text-base font-semibold text-[#0F7B4C]">
-              הפרטים נשמרו
-            </p>
-          )}
-          <button type="submit" className="h-12 w-full rounded-xl bg-navy text-lg font-extrabold text-white">
-            שמירת העדכון
-          </button>
-        </div>
-      </form>
-    </aside>
+          </div>
+
+          <div className="shrink-0 border-t border-line bg-white p-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
+            {error && (
+              <p role="alert" className="mb-3 rounded-xl bg-[#FDECEC] px-3 py-2 text-base font-semibold text-[#9B2C2C]">
+                {error}
+              </p>
+            )}
+            {saved && (
+              <p role="status" className="mb-3 rounded-xl bg-[#E5F6EF] px-3 py-2 text-base font-semibold text-[#0F7B4C]">
+                הפרטים נשמרו
+              </p>
+            )}
+            <button type="submit" className="h-12 w-full rounded-xl bg-navy text-lg font-extrabold text-white">
+              שמירת העדכון
+            </button>
+          </div>
+        </form>
+      </aside>
     </>
   )
 }

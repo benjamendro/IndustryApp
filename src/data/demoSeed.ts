@@ -6,16 +6,18 @@ const DAY = 24 * 60 * 60 * 1000
 type Sample = { id: string } & Omit<BusinessUpdate, "updatedBy">
 
 /**
- * Sample updates for the קצרין demo only.
+ * Sample parcel updates for the קצרין demo only.
  * They are stored like real updates, and the screen marks them as demo data.
  * Dates are relative to the first time the app is opened, so the map always
  * shows both a fresh update and one older than six months.
+ * Ids are אזור||תכנית||מגרש from the parcel layer.
  */
 export function buildDemoSeed(ids: Set<string>): Record<string, BusinessUpdate> {
+  if (config.zone !== "קצרין") return {}
   const now = Date.now()
   const samples: Sample[] = [
     {
-      id: "IND-0082",
+      id: "קצרין||220-0511089||300",
       status: "built",
       currentName: "יקב הגולן",
       activityType: "industry",
@@ -27,7 +29,7 @@ export function buildDemoSeed(ids: Set<string>): Record<string, BusinessUpdate> 
       isDemo: true,
     },
     {
-      id: "IND-0102",
+      id: "קצרין||220-0511089||715",
       status: "built",
       currentName: "מי עדן",
       activityType: "industry",
@@ -39,10 +41,10 @@ export function buildDemoSeed(ids: Set<string>): Record<string, BusinessUpdate> 
       isDemo: true,
     },
     {
-      id: "IND-1025",
+      id: "קצרין||220-0663724||37",
       status: "partial",
-      currentName: "מאפיית קצרין",
-      activityType: "commerce",
+      currentName: "בנדע אריזות",
+      activityType: "industry",
       employees: "6-20",
       available: false,
       contact: "",
@@ -51,7 +53,7 @@ export function buildDemoSeed(ids: Set<string>): Record<string, BusinessUpdate> 
       isDemo: true,
     },
     {
-      id: "IND-0122",
+      id: "קצרין||220-0663724||13",
       status: "vacant",
       currentName: "",
       activityType: "",
